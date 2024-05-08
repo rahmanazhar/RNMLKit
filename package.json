@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@gluestack-style/react": "^1.0.54",
+    "@gluestack-ui/config": "^1.1.18",
     "@gluestack-ui/themed": "^1.1.22",
     "@react-native-ml-kit/text-recognition": "^1.5.1",
+    "lucide-react-native": "^0.378.0",
     "react": "18.2.0",
     "react-native": "0.74.0",
     "react-native-image-picker": "^7.1.2",
