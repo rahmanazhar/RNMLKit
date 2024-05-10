@@ -7291,10 +7291,10 @@ rimraf@~2.6.2:
   dependencies:
     glob "^7.1.3"
 
-rn-mlkit-object-detection@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/rn-mlkit-object-detection/-/rn-mlkit-object-detection-0.1.1.tgz#ff9f20f2e82f6405e04ff5c88b4529a377809577"
-  integrity sha512-4rXQMx16Np3wLKXt21SwY6nyEgwAO+WUPrpI7CG9m0wnLdMu00eAkLW8bB/abwyytZtr7XCoFJQoFV/p08JOSw==
+rn-mlkit-object-detection@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/rn-mlkit-object-detection/-/rn-mlkit-object-detection-0.1.2.tgz#d1357d7d13ea242cafb4547eacf2d1cc00bdf717"
+  integrity sha512-d4MSObw/wqF03IXP7WJzEJnP8jwtoLvKiJmnpZtHMc6IbqJnAB3NKpFgkkNoxS3pbw+KkPhhA3ak9d+CxIZEmw==
 
 run-parallel@^1.1.9:
   version "1.2.0"
