@@ -7,6 +7,7 @@ import {captureImage, selectImageFromGallery} from './utils/imagePicker';
 import {CameraIcon, FileIcon} from 'lucide-react-native';
 
 import TextRecognition from '@react-native-ml-kit/text-recognition';
+import RNMLKitObjectDetection, { ObjectDetectorMode } from 'rn-mlkit-object-detection';
 
 const App = () => {
   const [image, setImage] = useState(null);
@@ -29,9 +30,15 @@ const App = () => {
     }
   };
 
+  const handleObjectDetection = async imagePath => {
+    const result = await RNMLKitObjectDetection.detectFromUri(imagePath);
+    console.log('Recognized image:', result);
+  }
+
   useEffect(() => {
     if (image) {
       handleTextRecognition(image);
+      handleObjectDetection(image);
     }
   });
 

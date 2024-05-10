@@ -18,7 +18,8 @@
     "react": "18.2.0",
     "react-native": "0.74.0",
     "react-native-image-picker": "^7.1.2",
-    "react-native-svg": "13.4.0"
+    "react-native-svg": "13.4.0",
+    "rn-mlkit-object-detection": "^0.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
